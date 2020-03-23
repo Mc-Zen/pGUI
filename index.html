@@ -39,7 +39,7 @@
         }
 
         #c2 a img {
-            animation: 1s ease-in 1s normal both running g;
+            animation: 1s ease-in-out 1s normal both running g;
         }
 
         #c2 span {
@@ -73,8 +73,12 @@
                 width: 0;
             }
 
-            100% {
+            80% {
                 width: 300px;
+            }
+
+            100% {
+                width: 280px;
             }
         }
 
@@ -95,9 +99,9 @@
     <canvas id="canvas"></canvas>
     <div id="c1">
         <div id="c2">
-            Happy Birthday
+            Happy <br>Birthday
             <a href="https://mc-zen.github.io/Cave-of-Creation/">
-                <img src="present.png">
+                <img src="present3.png">
                 <span>click here</span>
             </a>
         </div>
